@@ -1,0 +1,133 @@
+h2{
+    margin-top:140px;
+}
+.ninethrow{
+    background-color:violet;
+    color:black;
+}
+.tenthrow{
+    background-color:grey;
+    color:black;
+}
+.eleventhrow{
+    background-color:white;
+    color:black;
+}
+.eleventhrow td:hover{
+    border-style:solid;
+    border-color:black;
+}
+.twelvethrow{
+    background-color:rgb(203, 173, 0);
+    color:black;
+}
+.thirteenthrow{
+    background-color:silver;
+    color:black;
+}
+.firstrow th{
+ background-color:blueviolet;
+ border:none;
+    color:black;    
+}
+.secondrow{
+    background-color:black;
+    color:white;
+}
+.thirdrow{
+    background-color:brown;
+}
+.fourthrow{
+    background-color:red;
+}
+.fifthrow{
+    background-color:rgb(255, 94, 0);
+    color:black;
+}
+.sixthrow{
+    background-color:rgb(255, 251, 0);
+    color:black;
+}
+.seventhrow{
+    background-color:green;
+}
+.eightrow{
+    background-color:blue;
+}
+body{
+    text-align:center;
+    background-color:aquamarine;
+    color:blue;
+    text-shadow:5px 5px 10px;
+    display:flex;
+    justify-content:center;
+}
+div{
+    position:absolute;
+    height:50px;
+    width:190px;
+}
+.leg1{
+    background-color:grey;
+    height:10px;
+    width:210px;
+}
+.body{
+    background-color:rgb(233, 156, 13);
+    width:150px;
+    left:30px;
+    top:-19px;
+    border-radius:20px;
+    overflow:hidden;
+}
+.main{
+    margin-top:100px;
+}
+.first{
+    background-color:green;
+    width:10px;
+    left:15px;
+}
+.second{
+    background-color:blue;
+    width:10px;
+    left:40px;
+}
+.multiplier{
+    background-color:yellow;
+    width:10px;
+    left:65px;
+}
+.tolerance{
+    background-color:rgb(187, 159, 3);
+    width:10px;
+    left:100px;
+}
+.value{
+    margin-top:200px;
+    height:428px;
+    width:505px;
+    overflow:auto;
+    box-shadow:5px 5px 10px black;
+}
+table{
+    font-size:20px;
+    font-style:bold;
+    display:flex;
+    justify-content:center;
+    color:black;
+}
+td{
+    border:none;
+    padding:5px;
+    min-height:30px;
+    max-height:30px;
+}
+td:hover{
+    border-style:solid;
+    border-color:white;
+
+}
+th{
+    min-width:80px;
+}

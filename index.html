@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistance Calculator App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onmouseover="bodd()">
+    <h1>Resistance Calculator(4 Band)</h1>
+    <div class="main">
+        <div class="leg1"></div>
+        <div class="body">
+            <div class="first" id="first"></div>
+            <div class="second" id="second"></div>
+            <div class="multiplier" id="multiplier"></div>
+            <div class="tolerance" id="tolerance"></div>
+        </div>
+    </div>
+    <h2 id="resistance">Resistance Comes here</h2>
+    <div class="value">
+        <table border="1" cellspacing="0">
+            <tr class="firstrow">
+                <th>Color</th>
+                <th>1<sup>st</sup> Band</th>
+                <th>2<sup>nd</sup> Band</th>
+                <th>3<sup>rd</sup> Band</th>
+                <th>Multiplier</th>
+                <th>Tolerance</th>
+            </tr>
+            <tr class="secondrow">
+                <td>Black</td>
+                <td onclick="black1()">0</td>
+                <td onclick="black2()">0</td>
+                <td>0</td>
+                <td onclick="black4()">1Ω</td>
+                <td></td>
+            </tr>
+            <tr class="thirdrow">
+                <td>Brown</td>
+                <td onclick="brown1()">1</td>
+                <td onclick="brown2()">1</td>
+                <td>1</td>
+                <td onclick="brown4()">10Ω</td>
+                <td onclick="brown5()">+- 1%</td>
+            </tr>
+            <tr class="fourthrow">
+                <td>Red</td>
+                <td onclick="red1()">2</td>
+                <td onclick="red2()">2</td>
+                <td>2</td>
+                <td onclick="red4()">100Ω</td>
+                <td onclick="red5()">+-2%</td>
+            </tr>
+            <tr class="fifthrow">
+                <td>Orange</td>
+                <td onclick="orange1()">3</td>
+                <td onclick="orange2()">3</td>
+                <td>3</td>
+                <td onclick="orange4()">1kΩ</td>
+                <td onclick="orange5()">+- 3%</td>
+            </tr>
+            <tr class="sixthrow">
+                <td>Yellow</td>
+                <td onclick="yellow1()">4</td>
+                <td onclick="yellow2()">4</td>
+                <td>4</td>
+                <td onclick="yellow4()">10kΩ</td>
+                <td onclick="yellow5()">+- 4%</td>
+            </tr>
+            <tr class="seventhrow">
+                <td>Green</td>
+                <td onclick="green1()">5</td>
+                <td onclick="green2()">5</td>
+                <td>5</td>
+                <td onclick="green4()">100kΩ</td>
+                <td onclick="green5()">+- 0.5%</td>
+            </tr>
+            <tr class="eightrow">
+                <td>Blue</td>
+                <td onclick="blue1()">6</td>
+                <td onclick="blue2()">6</td>
+                <td>6</td>
+                <td onclick="blue4()">1MΩ</td>
+                <td onclick="blue5()">+- 0.25%</td>
+            </tr>
+            <tr class="ninethrow">
+                <td>Violet</td>
+                <td onclick="violet1()">7</td>
+                <td onclick="violet2()">7</td>
+                <td>7</td>
+                <td onclick="violet4()">10MΩ</td>
+                <td onclick="violet5()">+- 0.10%</td>
+            </tr>
+            <tr class="tenthrow">
+                <td>Grey</td>
+                <td onclick="grey1()">8</td>
+                <td onclick="grey2()">8</td>
+                <td>8</td>
+                <td onclick="grey4()">100MΩ</td>
+                <td onclick="grey5()">+- 0.05%</td>
+            </tr>
+            <tr class="eleventhrow">
+                <td>White</td>
+                <td onclick="white1()">9</td>
+                <td onclick="white2()">9</td>
+                <td>9</td>
+                <td onclick="white4()">1GΩ</td>
+                <td></td>
+            </tr>
+            <tr class="twelvethrow">
+                <td>Gold</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td onclick="gold4()">0.1 Ω</td>
+                <td onclick="gold5()">+- 5%</td>
+            </tr>
+            <tr class="thirteenthrow">
+                <td>Silver</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td onclick="silver4()">0.01Ω</td>
+                <td onclick="silver5()">+- 10%</td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
